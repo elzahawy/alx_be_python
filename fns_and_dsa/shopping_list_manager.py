@@ -1,3 +1,21 @@
+# Shopping List Manager
+
+# array for shopping list
+shopping_list = []
+
+# function to display menu
+def display_menu():
+    print("\n--- Shopping List Menu ---")
+    print("1. View Shopping List")
+    print("2. Add Item")
+    print("3. Remove Item")
+    print("4. Exit")
+
+# call the menu at least once
+display_menu()
+
+# ask for choice input as a number
+choice = int(input("Enter your choice: "))
 def display_menu():
     print("\nShopping List Manager")
     print("1. Add Item")
